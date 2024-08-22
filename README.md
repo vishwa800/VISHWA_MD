@@ -49,3 +49,10 @@
 
 <p align = left> <img src="https://telegra.ph/file/d04c9bc108603e4a6b13a.jpg"<width=70 height=70/p>
 
+<p align="left">
+
+  <a aria-label="WhatsApp Supported Channel" href="https://whatsapp.com/channel/0029VaiIBc57Noa9NF5p1o3W" target="_blank">
+      <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+    <img alt="whatsapp" src="https://img.shields.io/badge/Join Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a>
+
