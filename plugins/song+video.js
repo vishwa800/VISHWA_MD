@@ -1,4 +1,4 @@
-//=============BhashiMDSongDL=============
+//=============VISHWAMDSongDL=============
 
 const {cmd , commands} = require('../command')
 const fg = require('api-dylux')
@@ -19,7 +19,7 @@ const search = await yts(q)
 const data = search.videos[0];
 const url = data.url
 
-let desc = `‎‎*𝗕𝗛𝗔𝗦𝗛𝗜 𝗠𝗗 𝗦𝗢𝗡𝗚 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥*
+let desc = `‎‎*𝗩𝗜𝗦𝗛𝗪𝗔 𝗠𝗗 𝗦𝗢𝗡𝗚 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥*
 
 🎧 ‎𝗧𝗮𝘁𝗶𝗹𝗲 : ${data.title}
 ⏰ 𝗧𝗶𝗺𝗲 𝗗𝘂𝗿𝗮𝘁𝗶𝗼𝗻 : ${data.timestamp}
@@ -48,7 +48,7 @@ reply(`${e}`)
 }
 })
 
-//=============BhashiMDVideoDL=============
+//=============VishwaMDVideoDL=============
 
 cmd({
     pattern: "video",
@@ -64,7 +64,7 @@ const search = await yts(q)
 const data = search.videos[0];
 const url = data.url
 
-let desc = `‎‎*𝗕𝗛𝗔𝗦𝗛𝗜 𝗠𝗗 𝗩𝗜𝗗𝗘𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥*
+let desc = `‎‎*𝗩𝗜𝗦𝗛𝗪𝗔 𝗠𝗗 𝗩𝗜𝗗𝗘𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥*
 
 🎬 ‎𝗧𝗮𝘁𝗶𝗹𝗲 : ${data.title}
 ⏰ 𝗧𝗶𝗺𝗲 𝗗𝘂𝗿𝗮𝘁𝗶𝗼𝗻 : ${data.timestamp}
