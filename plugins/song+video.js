@@ -55,9 +55,9 @@ const data = search.videos[0];
 const url = data.url
 
 let desc = `*Title*: ${data.title}
-*Time* :${data.timestamp}
-*🎧Ago* : ${data.ago}
-*🍁Views* : ${data.views}*`
+*♞Time* :${data.timestamp}
+*♞Ago* : ${data.ago}
+*♞Views* : ${data.views}*`
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
 
 //download video
@@ -67,7 +67,7 @@ let downloadUrl = down.dl_url
 
 //send video+ document message
 await conn.sendMessage(from,{video: {url:downloadUrl},mimetype:"video/mp4"},{quoted:mek})
-await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"video/mp4",fileName:data.title + ".mp4",caption:"𝐌ʀ - 𝐀𝙻𝗘𝙓 - 𝙄𝘿 "},{quoted:mek})
+await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"video/mp4",fileName:data.title + ".mp4",caption:"𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 𝙑𝙄𝙎𝙃𝙒𝘼-𝙈𝘿㋡ "},{quoted:mek})
 
 
 
