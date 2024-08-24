@@ -19,7 +19,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['94788134387']
+const ownerNumber = ['94768533896']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -77,7 +77,7 @@ BASE BUILD USING BY BAILEYES API KEYS
 
 ᴘᴏᴡᴇʀᴅ ʙʏ ᴏꜰᴄ 𝚟𝚒𝚜𝚑𝚠𝚊`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/353e86db7ae0ef9bccec0.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/68d6393c24646149a2a47.jpg` }, caption: up })
 
 }
 })
