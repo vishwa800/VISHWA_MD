@@ -1,12 +1,12 @@
 {
-  "name": "bhashimd",
+  "name": "vishwamd",
   "version": "1.0.0",
-  "description": "bhashimd powered by bashitha✅",
+  "description": "vishwamd powered by vishwa✅",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name bhashimd",
-    "stop": "pm2 stop bhashimd",
-    "restart": "pm2 restart bhashimd"
+    "stop": "pm2 stop vishwamd",
+    "restart": "pm2 restart vishwamd"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
