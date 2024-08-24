@@ -50,7 +50,7 @@ ${menu.convert}
 
 ${menu.search}
 
-POWERD BY THARUSHA SANDIPA 💚
+𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐕𝐈𝐒𝐇𝐖𝐀-𝐌𝐃☻
 `
 await conn.sendMessage(from,{image:{url:config.ALIVE_IMG},caption:madeMenu},{quoted:mek})
 
