@@ -21,7 +21,6 @@ let desc = `*Title*: ${data.title}
 *⫸⫸Ago* : ${data.ago}
 *⫸⫸Views* : ${data.views}*`
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
-    𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 𝗩𝗜𝗦𝗛𝗪𝗔-𝗠𝗗
 
 //download audio
 
