@@ -17,9 +17,9 @@ const data = search.videos[0];
 const url = data.url
 
 let desc = `*Title*: ${data.title}
-*Time* :${data.timestamp}
-*🎧Ago* : ${data.ago}
-*🍁Views* : ${data.views}*`
+*♞Time* :${data.timestamp}
+*♞Ago* : ${data.ago}
+*♞Views* : ${data.views}*`
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
 
 //download audio
@@ -29,7 +29,7 @@ let downloadUrl = down.dl_url
 
 //send audio + document message
 await conn.sendMessage(from,{audio: {url:downloadUrl},mimetype:"audio/mpeg"},{quoted:mek})
-await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"audio/mpeg",fileName:data.title + ".mp3",caption:"𝐌ʀ - 𝐀𝙻𝗘𝙓 - 𝙄𝘿 "},{quoted:mek})
+await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"audio/mpeg",fileName:data.title + ".mp3",caption:"𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 𝗩𝗜𝗦𝗛𝗪𝗔-𝗠𝗗☠ "},{quoted:mek})
 
 
 
