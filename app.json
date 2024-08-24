@@ -1,7 +1,7 @@
 {
-  "name": "bhashimd",
-  "description": "Javascript WhatsApp bot made by BhashiMD",
-  "logo": "https://telegra.ph/file/1e4ba22b080c8fd6134f2.jpg",
+  "name": "vishwamd",
+  "description": "Javascript WhatsApp bot made by vishwamd",
+  "logo": "https://telegra.ph/file/68d6393c24646149a2a47.jpg",
   "keywords": ["bot"],
   "success_url": "/",
 
