@@ -17,9 +17,9 @@ const data = search.videos[0];
 const url = data.url
 
 let desc = `*Title*: ${data.title}
-*♞Time* :${data.timestamp}
-*♞Ago* : ${data.ago}
-*♞Views* : ${data.views}*`
+*⫸⫸Time* :${data.timestamp}
+*⫸⫸Ago* : ${data.ago}
+*⫸⫸Views* : ${data.views}*`
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
 
 //download audio
