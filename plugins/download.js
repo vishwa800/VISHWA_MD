@@ -103,7 +103,3 @@ async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, send
         reply(`${e}`)
     }
 })
-
-
-
-//----- *Share with Others* ------//
