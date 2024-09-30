@@ -2,77 +2,100 @@ const {cmd , commands} = require('../command')
 const fg = require('api-dylux')
 const yts = require('yt-search')
 
-
 cmd({
     pattern: "song",
-    desc: "download songs.",
-    category: "download",
+    react: "🎵",
+    desc: "downlod song",
+    category: "downlod",
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-if(!q) return reply("Please give me url or title")
+
+if(!q) return reply("❌Please give me url or titel")
 const search = await yts(q)
-const data = search.videos[0];
-const url = data.url
+const deta = search.videos[0];
+const url = deta.url 
 
-let desc = `*Title*: ${data.title}
-*⫸⫸Time* :${data.timestamp}
-*⫸⫸Ago* : ${data.ago}
-*⫸⫸Views* : ${data.views}*`
-await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
+let desc= `
+•.¸♡ 💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍 AUDIO-DOWNLOADER🎶 ♡¸.•
+|__________
+| 🎠title : ${deta.title}
+| 🎠description : ${deta.description}
+| 🎠time : ${deta.timestamp}
+| 🎠ago : ${deta.ago}
+| 🎠views : ${deta.views}
+|__________
 
-//download audio
+POWERED by ⚡ DARK NEON CYBERS 🤍
+
+`
+
+await conn.sendMessage(from,{image :{ url: deta.thumbnail},caption:desc},{quoted:mek});
+
+//downlod audio+ document
 
 let down = await fg.yta(url)
 let downloadUrl = down.dl_url
 
-//send audio + document message
-await conn.sendMessage(from,{audio: {url:downloadUrl},mimetype:"audio/mpeg"},{quoted:mek})
-await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"audio/mpeg",fileName:data.title + ".mp3",caption:"𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 𝗩𝗜𝗦𝗛𝗪𝗔-𝗠𝗗☠ "},{quoted:mek})
+//send audio message 
+await conn.sendMessage(from,{audio:{url:downloadUrl},mimetype:"audio/mpeg",caption :"©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋɴᴇᴏɴᴄʏʙᴇʀꜱ"},{quoted:mek})
+await conn.sendMessage(from,{document:{url:downloadUrl},mimetype:"audio/mpeg",fileName:deta.title + ".mp3" ,caption :"©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋɴᴇᴏɴᴄʏʙᴇʀꜱ"},{quoted:mek})
 
-
+  
 
 }catch(e){
 console.log(e)
-reply(`${e}`)
+reply(${e})
 }
 })
 
-//===========video-dl===========
+//========video dl=======
 
 cmd({
     pattern: "video",
-    desc: "download videos.",
-    category: "download",
+    react: "🎬",
+    desc: "downlod video",
+    category: "downlod",
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-if(!q) return reply("Please give me url or title")
+
+if(!q) return reply("❌Please give me url or title")
 const search = await yts(q)
-const data = search.videos[0];
-const url = data.url
+const deta = search.videos[0];
+const url = deta.url 
 
-let desc = `*Title*: ${data.title}
-*♞Time* :${data.timestamp}
-*♞Ago* : ${data.ago}
-*♞Views* : ${data.views}*`
-await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
+let desc= `
+•.¸♡ 💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍 VIDEO-DOWNLOADER📽️ ♡¸.•
+|__________
+| 🎠title : ${deta.title}
+| 🎠description : ${deta.description}
+| 🎠time : ${deta.timestamp}
+| 🎠ago : ${deta.ago}
+| 🎠views : ${deta.views}
+|__________
 
-//download video
+POWERED by ⚡ DARK NEON CYBERS 🤍
+
+`
+
+await conn.sendMessage(from,{image :{ url: deta.thumbnail},caption:desc},{quoted:mek});
+
+//downlod video + document 
 
 let down = await fg.ytv(url)
 let downloadUrl = down.dl_url
 
-//send video+ document message
-await conn.sendMessage(from,{video: {url:downloadUrl},mimetype:"video/mp4"},{quoted:mek})
-await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"video/mp4",fileName:data.title + ".mp4",caption:"𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 𝙑𝙄𝙎𝙃𝙒𝘼-𝙈𝘿㋡ "},{quoted:mek})
+//send video  message 
+await conn.sendMessage(from,{video:{url:downloadUrl},mimetype:"video/mp4",caption :"©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋɴᴇᴏɴᴄʏʙᴇʀꜱ"},{quoted:mek})
+await conn.sendMessage(from,{document:{url:downloadUrl},mimetype:"video/mp4",fileName:deta.title + ".mp4",caption :"©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋɴᴇᴏɴᴄʏʙᴇʀꜱ"},{quoted:mek})
 
-
+  
 
 }catch(e){
 console.log(e)
-reply(`${e}`)
+reply(${e})
 }
 })
