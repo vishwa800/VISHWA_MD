@@ -10,7 +10,7 @@ ALIVE_MSG: process.env.ALIVE_MSG=`Hi I AM ALIVE NOW👋
 
 ♤𝐈 𝐀𝐌 𝐕𝐈𝐒𝐇𝐖𝐀-𝐌𝐃 𝐌𝐔𝐋𝐓𝐈𝐃𝐄𝐕𝐈𝐂𝐄 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓♢🐰
 
-𝐎𝐖𝐍𝐄𝐑 𝐕𝐈𝐒𝐇𝐖𝐀 𝐊𝐎𝐃𝐈𝐓𝐇𝐔𝐖𝐀𝐊𝐊𝐔☘
+𝐎𝐖𝐍𝐄𝐑 𝐕𝐈𝐒𝐇𝐖𝐀 𝐊𝐎𝐃𝐈𝐓𝐇𝐔𝐖𝐀𝐊𝐊𝐔💥
 https://chat.whatsapp.com/EEDH68vR6YT4WE7Otu4kqD
 
 > ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴠɪꜱʜᴡᴀ ᴋᴏᴅɪᴛʜᴜᴡᴀᴋᴋᴜ☠`,
