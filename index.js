@@ -77,7 +77,7 @@ BASE BUILD USING BY BAILEYES API KEYS
 
 ᴘᴏᴡᴇʀᴅ ʙʏ ᴏꜰᴄ ᴠɪꜱʜᴡᴀ`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/353e86db7ae0ef9bccec0.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net")
 
 }
 })
@@ -179,4 +179,4 @@ res.send("hey, bot started✅");
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
 connectToWA()
-}, 4000);  
+}, 8000);  
