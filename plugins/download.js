@@ -1058,7 +1058,7 @@ cmd({
                       'mentionedJid': [],
                       'externalAdReply': {
                         'title': _0x4bd79a.title,
-                        'body': "ᴍᴀᴅᴇ ʙʏ sᴜʙᴢᴇʀᴏ",
+                        'body': "VISHWA-MD",
                         'mediaType': 0x1,
                         'sourceUrl': _0x51bcf2.link,
                         'thumbnailUrl': _0x4bd79a.image
