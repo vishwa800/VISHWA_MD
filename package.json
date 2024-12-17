@@ -23,5 +23,10 @@
     "megajs": "^1.1.0",
     "vm": "^0.1.0",
     "qrcode-terminal": "^0.12.0"
+    "@sl-code-lords/esana-news": "1.0.3",
+    "@sl-code-lords/image-library": "1.0.0",
+    "@sl-code-lords/movie-dl": "1.1.0",
+    "@sl-code-lords/photooxy": "1.0.1",
+    "@sl-code-lords/si-subdl": "1.1.1",
   }
 }
