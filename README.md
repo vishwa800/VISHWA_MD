@@ -18,7 +18,7 @@
 <a href='https://github.com/vishwa800/VISHWA_MD/fork' target="_blank"><img alt='Fork Repo' src='https://img.shields.io/badge/-Fork Repo-grey?style=for-the-badge&logo=github&logoColor=white'/< width=115 height=28/p></a>
 
 <p align="center">
-<a href='https://environmental-silvana-vishwa22-1b3577a4.koyeb.app/pair' target="_blank"><img alt='Pair Code' src='https://img.shields.io/badge/-Pair Code-darkgreen?style=for-the-badge&logo=Whatsapp&logoColor=white'/< width=115 height=28/p></a>
+<a href='https://environmental-silvana-vishwa22-1b3577a4.koyeb.app/' target="_blank"><img alt='Pair Code' src='https://img.shields.io/badge/-Pair Code-darkgreen?style=for-the-badge&logo=Whatsapp&logoColor=white'/< width=115 height=28/p></a>
 
 ***
 
